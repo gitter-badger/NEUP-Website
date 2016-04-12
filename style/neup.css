@@ -1,0 +1,122 @@
+   
+@media screen and (min-width: 1900px) {  
+        body {
+
+        padding-top: 65px;
+        height: 1080px;
+        overflow-x: hidden; 
+        border:solid 1px blue;
+        margin-left: 5%;
+        width: 90%;
+    }
+}  
+   
+@media screen and (min-width: 1366px) and (max-width: 1900px) {  
+           body {
+
+        padding-top: 45px;
+        height: 768px;
+        overflow-x: hidden; 
+        border:solid 1px blue;
+        margin-left: 5%;
+        width: 90%;
+    }
+}  
+
+   
+@media screen and (max-device-width: 480px) {  
+          body {
+
+        padding-top: 15px;
+        height: 800px;
+        overflow-x: hidden; 
+        border:solid 1px blue;
+        margin-left: 5%;
+        width: 90%;
+    }
+}  
+
+
+.nav-justified{
+        border: solid 1px red;
+    }
+
+.text-muted{
+        border:solid 1px red;
+        height: 10%;
+        
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+
+    .line2{
+        border: solid 1px red;
+        height: 30%;
+        /*min-height: 30%;*/
+        width: 100%;
+    }
+
+    .slide.carousel{
+        float: left;
+        border: solid 1px green;
+        height: 100%;
+        /*min-height: 30%;*/
+        width: 42%;
+    }
+    .line21{
+        float: left;
+        width: 42%;
+        height: 100%;
+        border: solid 1px red;
+    }
+    .line22{
+        float: left;
+        width: 16%;
+        height: 100%;
+        border: solid 1px red;
+    }
+
+    .col-md-4{
+        height: 100%;
+        border: solid 1px green;
+        
+    }
+    .line3{
+        border: solid 1px red;
+        height: 30%;
+        /*min-height: 30%;*/
+        width: 100%;
+    }
+    .line4{
+        border: solid 1px red;
+        height: 18%;
+        /*min-height: 30%;*/
+        width: 100%;
+    }
+    .line41{
+        float: left;
+        width: 31%;
+        height: 100%;
+        border: solid 1px red;
+    }
+    .line42{
+        float: left;
+        width: 25%;
+        height: 100%;
+        border: solid 1px red;
+    }
+    .line43{
+        float: left;
+        width: 25%;
+        height: 100%;
+        min-width: 25% ;
+        border: solid 1px red;
+    }
+    .line44{
+        float: left;
+        width: 19%;
+        height: 100%;
+        border: solid 1px red;
+    }

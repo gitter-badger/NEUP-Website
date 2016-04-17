@@ -1,4 +1,3 @@
-   
 @media screen and (min-width: 1900px) {  
         body {
 
@@ -49,8 +48,15 @@
         margin-left: 5%;
     }
 
-
-
+	.bg{
+		background-image:url(1024874.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.disc{
+		list-style-type: disc;
+		font-size:12px;
+	}
     .line2{
         border: solid 1px red;
         height: 30%;
@@ -71,24 +77,294 @@
         height: 100%;
         border: solid 1px red;
     }
+	.line211{
+		position:relative;
+		float: left;
+		width: 33%;
+		height: 50%;
+		
+	}
+	.line211a{
+		color:#F00;
+		position:absolute;
+		left:5%;
+		top:15%;
+		width:100%;
+		height:10%;
+	}
+	.211ah{
+		font-weight:bold;
+		font-size:20px;
+	}
+	.line211b{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line211c{
+		position:absolute;
+		left:8%;
+		bottom:0;
+		width:100%;
+		height:60%;
+	}
+	.line212{
+		position:relative;
+		float: left;
+		width: 33%;
+		height: 50%;
+		border: solid ipx red;
+	}
+	.line212a1{
+		position:absolute;
+		left:5%;
+		top:10%;
+		width:70%;
+		height:30%;
+	}
+	.line212a2{
+		position:absolute;
+		right:0;
+		top:16%;
+		width:30%;
+		height:10%;
+	}
+	.line212b{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line212c{
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		height:60%;
+	}
+	.line213{
+		position:relative;
+		float: left;
+		width: 33%;
+		height: 50%;
+		border: solid ipx red;
+	}
+	.line213a1{
+		position:absolute;
+		left:5%;
+		top:10%;
+		width:70%;
+		height:30%;
+	}
+	.line213a2{
+		position:absolute;
+		right:0;
+		top:16%;
+		width:30%;
+		height:10%;
+	}
+	.line213b{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line213c{
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		height:60%;
+	}
+	.line214{
+		position:relative;
+		float: left;
+		width: 33%;
+		height: 50%;
+		border: solid ipx red;
+	}
+	.line214a{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:70%;
+	}
+	.line215{
+		position:relative;
+		float: left;
+		width: 33%;
+		height: 50%;
+		border: solid ipx red;
+	}
+	.line215a1{
+		position:absolute;
+		left:5%;
+		top:10%;
+		width:70%;
+		height:30%;
+	}
+	.line215a2{
+		position:absolute;
+		right:0;
+		top:16%;
+		width:30%;
+		height:10%;
+	}
+	.line215b{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line215c{
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		height:60%;
+	}
+	.line216{
+		position:relative;
+		float: left;
+		width: 33%;
+		height: 50%;
+		border: solid ipx red;
+	}
+	.line216a1{
+		position:absolute;
+		left:5%;
+		top:10%;
+		width:70%;
+		height:30%;
+	}
+	.line216a2{
+		position:absolute;
+		right:0;
+		top:16%;
+		width:30%;
+		height:10%;
+	}
+	.line216b{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line216c{
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		height:60%;
+	}
     .line22{
         float: left;
         width: 16%;
         height: 100%;
         border: solid 1px red;
     }
-
+	.line221{
+        float: left;
+        width: 100%;
+        height: 50%;
+        border: solid 1px red;
+		background-image:url(QQ图片20160414001756.png);
+		background-position: center;
+		background-repeat: no-repeat;
+    }
+	.line222{
+        float: left;
+        width: 100%;
+        height: 50%;
+        border: solid 1px red;
+		background-image:url(QQ图片20160414001818.png);
+		background-position: center;
+		background-repeat: no-repeat;
+    }
     .col-md-4{
+		position:relative;
         height: 100%;
         border: solid 1px green;
-        
-    }
+     }
     .line3{
         border: solid 1px red;
-        height: 30%;
+        height: 20%;
         /*min-height: 30%;*/
         width: 100%;
     }
+	.line32a1{
+		position:absolute;
+		left:5%;
+		top:5%;
+		width:70%;
+		height:10%;
+	}
+	.line32a2{
+		position:absolute;
+		right:0;
+		top:10%;
+		width:10%;
+		height:10%;
+	}
+	.line32b{
+		position:absolute;
+		left:0;
+		top:20%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line32c1{
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:50%;
+		height:60%;
+	}
+	.line32c2{
+		position:absolute;
+		right:0;
+		bottom:10%;
+        width: 50%;
+        height: 60%;
+		background-image:url(QQ图片20160416202835.png);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.line33a1{
+		position:absolute;
+		left:5%;
+		top:5%;
+		width:70%;
+		height:10%;
+	}
+	.line33a2{
+		position:absolute;
+		right:0;
+		top:10%;
+		width:10%;
+		height:10%;
+	}
+	.line33b{
+		position:absolute;
+		left:0;
+		top:20%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
     .line4{
         border: solid 1px red;
         height: 18%;
@@ -102,21 +378,96 @@
         border: solid 1px red;
     }
     .line42{
+		position:relative;
         float: left;
         width: 25%;
         height: 100%;
         border: solid 1px red;
+		margin-left:auto;
+		margin-right:auto;
     }
-    .line43{
+	.line42a{
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:5%;
+		background-color:#D2691E;
+	}
+	.line42b{
+		color:#F00;
+		position:absolute;
+		left:32%;
+		right:30%;
+		top:35%;
+		bottom:30%;
+	}
+	.line43{
+		position:relative;
         float: left;
         width: 25%;
         height: 100%;
-        min-width: 25% ;
         border: solid 1px red;
+		margin-left:auto;
+		margin-right:auto;
     }
+	.line43a{
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:5%;
+		background-color:#D2691E;
+	}
+	.line43b{
+		color:#F00;
+		position:absolute;
+		left:30%;
+		right:32%;
+		top:35%;
+		bottom:30%;
+	}
     .line44{
+		position:relative;
         float: left;
         width: 19%;
         height: 100%;
         border: solid 1px red;
     }
+	.line44a{
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:28%;
+		background-color:#D2691E;
+	}
+	.line44b{
+		position:absolute;
+		left:0;
+		top:30%;
+		width:100%;
+		height:1%;
+		background-color:#D2691E;
+	}
+	.line44c1{
+		position:absolute;
+		left:0;
+		top:35%;
+		width:100%;
+		height:20%;
+	}
+	.line44c2{
+		position:absolute;
+		left:0;
+		top:60%;
+		width:100%;
+		height:20%;
+	}
+	.line44c3{
+		position:absolute;
+		left:0;
+		top:80%;
+		width:100%;
+		height:20%;
+	}

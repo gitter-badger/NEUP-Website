@@ -2,5 +2,6 @@
 ---  
 ## TODO  
 * [ ] implement basic frame  
-* [ ] bootstrap.carousel with picture   
+* [ ] implement menubar
+* [X] bootstrap.carousel with picture   
 * [ ] put it in .php

@@ -1,6 +1,4 @@
-<?php get_header(); ?>
-<body>
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -317,5 +315,3 @@
     </footer>
 </body>
 </html>
-
-<?php get_footer() ?>

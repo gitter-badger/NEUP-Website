@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0" />
     <link href="<?php echo bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo bloginfo('template_url'); ?>/style/neup.css" rel="stylesheet">
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.8.3.min.js"></script>
-    <script src="<?php echo bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-2.2.3.js"></script>
+    <script src="<?php echo bloginfo('template_directory'); ?>/js/bootstrap.js"></script>
     <script>
         $(function () {
             $("#tabs1 a").mousemove(function (e) {
@@ -28,58 +28,61 @@
 
 <body class="bg">
     <div class="line1">
-        <h3 class="text-muted">banner</h3>
-        <nav>
+        <div class = "banner"></div>
+        <nav class="menubar">
             <ul class="nav nav-justified">
-                <li class="active"><a href="#">先锋首页</a></li>
-                <li><a href="#">东大共青团</a></li>
-                <li><a href="#">学生组织</a></li>
-                <li><a href="#">网上团支部</a></li>
-                <li><a href="#">青年之声</a></li>
-                <li><a href="#">先锋论坛</a></li>
-                <li><a href="#">文件下载</a></li>
-                <li><a href="#">友情链接</a></li>
+                <li class="active"><a href="#" style="color:red">先锋首页</a></li>
+                <li><a href="#" style="color:white">东大共青团</a></li>
+                <li><a href="#" style="color:white">学生组织</a></li>
+                <li><a href="#" style="color:white">网上团支部</a></li>
+                <li><a href="#" style="color:white">青年之声</a></li>
+                <li><a href="#" style="color:white">先锋论坛</a></li>
+                <li><a href="#" style="color:white">文件下载</a></li>
+                <li><a href="#" style="color:white">友情链接</a></li>
             </ul>
         </nav>
     </div>
     <div class="line2">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <div class="myCarousel-head"></div>
+
+        <div id="myCarousel" class="line20 carousel slide" data-ride="carousel">
+                    <!-- 轮播（Carousel）指标 -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
+              <!-- 轮播（Carousel）项目 -->
             <div class="carousel-inner">
-                <div class="item active" style="height: 100%">
-                    <img src="<?php echo bloginfo('template_url'); ?>/images/2_1.png" alt="First slide">
-                    <div class="carousel-caption">标题 1</div>
+                <div class="item active">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/2_1.png" alt="First slide">
+                    <div class="carousel-caption">1</div>
                 </div>
-                <div class="item" style="height: 100%;">
-                    <img src="<?php echo bloginfo('template_url'); ?>/images/2_2.png" alt="Second slide">
-                    <div class="carousel-caption">标题 2</div>
+                <div class="item">
+
+                    <img src="<?php bloginfo('template_directory'); ?>/images/2_1.png"  alt="Second slide">
+                    <div class="carousel-caption">2</div>
                 </div>
-                <div class="item" style="height: 100%">
-                    <img src="<?php echo bloginfo('template_url'); ?>/images/2_3.png" alt="Third slide">
-                    <div class="carousel-caption">标题 3</div>
+                <div class="item">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/2_1.png" alt="Third slide">
+                    <div class="carousel-caption">3</div>
                 </div>
             </div>
-            <!-- 轮播（Carousel）导航 -->
-            <a class="carousel-control left" href="#myCarousel"
-            data-slide="prev" style="top: 50%;background:transparent"><p style="color: #eea236">&lsaquo;</p></a>
-            <a class="carousel-control right" href="#myCarousel"
-            data-slide="next" style="top: 50%;background:transparent"><p style="color: #eea236">&rsaquo;</p></a>
+              <!-- 轮播（Carousel）导航 -->
+              <a class="carousel-control left" href="#myCarousel"
+                 data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel"
+                 data-slide="next">&rsaquo;</a>
         </div>
 
         <div class="line21">
-            <div class="line211">
-                <div class="line211a"><p class="211ah">留守流动儿童约1亿，如何破困局？</p></div>
+            <div class="line211 frame">
+                <div class="line211a"><p>先锋新闻</p></div>
                 <div class="line211b"></div>
                 <div class="line211c">
                     <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;留守儿童，估算约1亿的消息上了微博热搜榜，随后，各大媒体官号相继转发，这源于中国青年报中青在线的一篇题为“我国将首次摸清留守儿童底数”的报道。（点击看全文）</a>
                 </div>
             </div>
-            <div class="line212">
+            <div class="line212 frame">
                 <div class="line212a1"><h4>外媒聚焦</h4></div>
                 <div class="line212a2"><a href="#">more>></div>
                 <div class="line212b"></div>
@@ -96,12 +99,12 @@
 
                         if (have_posts()) : while (have_posts()) : the_post(); 
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li> 
                         <?php endwhile; endif; wp_reset_query();?> 
                     </ul>
                 </div>
             </div>
-            <div class="line213">
+            <div class="line213 frame">
                 <div class="line213a1"><h4>通知公告</h4></div>
                 <div class="line213a2"><a href="#">more>></div>
                 <div class="line213b"></div>
@@ -118,12 +121,12 @@
 
                         if (have_posts()) : while (have_posts()) : the_post(); 
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" calss="a"><?php the_title(); ?></a></li> 
                         <?php endwhile; endif; wp_reset_query();?>
                     </ul>
                 </div>
             </div>
-            <div class="line214">
+            <div class="line214 frame">
                 <div class="line214a">
                     <ul class="disc">
                         <?php 
@@ -137,11 +140,11 @@
 
                         if (have_posts()) : while (have_posts()) : the_post(); 
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" calss = a><?php the_title(); ?></a></li> 
                         <?php endwhile; endif; wp_reset_query();?>
                 </div>
             </div>
-            <div class="line215">
+            <div class="line215 frame">
                 <div class="line215a1"><h4>学院团讯</h4></div>
                 <div class="line215a2"><a href="#">more>></div>
                 <div class="line215b"></div>
@@ -163,7 +166,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="line216">
+            <div class="line216 frame">
                 <div class="line216a1"><h4>活动预告</h4></div>
                 <div class="line216a2"><a href="#">more>></div>
                 <div class="line216b"></div>
@@ -196,17 +199,16 @@
     <div class="line3">
         <!-- Example row of columns -->
         <!-- <div class="row"> -->
-        <div class="col-md-4">
+        <div class="col-md-4 line31 frame">
             <div class="container">
                 <div class="row">
-                    <ul class="nav-tabs nav" id="tabs1">
-                        <li class="line3-active"><a href="#tabs-1" id="line3-head1">思想引领行动 </a></li>
+                    <ul class="nav-tabs nav" id="tabs1"><li class="line3-active"><a href="#tabs-1" id="line3-head1">思想引领行动 </a></li>
                         <li><a href="#tabs-2" id="line3-head2">素质拓展行动</a></li>
                         <li><a href="#tabs-3" id="line3-head3">权益服务行动</a></li>
                         <li><a href="#tabs-4" id="line3-head4">组织提升行动</a></li>
                     </ul>
                     <div class="tab-content" style="background-image: url(<?php echo bloginfo('template_url'); ?>/images/8243B997-6573-4F31-8A65-49B22E085D8F.png)">
-                        <div class="tab-pane nav" id="tabs-1">
+                        <div class="tab-pane active" id="tabs-1">
                             <div style="background-color: rgb(238,131,34);height: 10px;margin-top: 0px"></div>
                             <div class="tab-pane-content-1">
                                 <dt><a href="#">主题团日</a></dt>
@@ -232,8 +234,9 @@
 
                                     if (have_posts()) : while (have_posts()) : the_post(); 
                                     ?> 
-                                    <dt><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><dt> 
+                                    <dt><a href="<?php the_permalink(); ?>" target="_blank"><?php the_title(); ?></a><dt> 
                                     <?php endwhile; endif; wp_reset_query();?>
+                                    <div class="clear"></div>
                                 </dl>
                                 </ul>
                             </div>
@@ -254,7 +257,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="line32">
             <div class="line32a1"><h4>活力支部</h4></div>
             <div class="line32a2"><a href="#">more>></div>
             <div class="line32b"></div>
@@ -271,13 +274,13 @@
 
                         if (have_posts()) : while (have_posts()) : the_post(); 
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li> 
                         <?php endwhile; endif; wp_reset_query();?>
                 </ul>
             </div>
             <div class="line32c2"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 line33 frame">
             <div class="line33a1"><h4>先锋排行</h4></div>
             <div class="line33a2"><a href="#">more>></div>
             <div class="line33b"></div>
@@ -286,32 +289,31 @@
     </div> <!-- /container -->
 
     <div class="line4">
-        <div class="line41">
+        <div class="line41 frame">
 
         </div>
-        <div class="line42">
+        <div class="line42 frame">
             <div class="line42a"></div>
             <div class="line42b"><h4>专题一  学习之路</h4></div>
 
         </div>
-        <div class="line43">
+        <div class="line43 frame">
             <div class="line43a"></div>
             <div class="line43b"><h4>专题二  青年之声</h4></div>
 
         </div>
-        <div class="line44">
+        <div class="line44 frame">
             <div class="line44a"><p>活动专题</p></div>
-            <div class="line44b"></div>
+            <!--<div class="line44b"></div>
             <div class="line44c1"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/1.png" border="0"></a></div>
             <div class="line44c2"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/2.png" border="0"></a></div>
-            <div class="line44c3"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/3.png" border="0"></a></div>
+            <div class="line44c3"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/3.png" border="0"></a></div>-->
 
         </div>
     </div>
 
     <!-- </div> -->
     <footer class="foot">
-        <p>&copy; 2016 Company, Inc.</p>
     </footer>
 </body>
 </html>

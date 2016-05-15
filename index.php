@@ -3,10 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0" />
-    <link href="<?php echo bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo bloginfo('template_url'); ?>/style/neup.css" rel="stylesheet">
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-2.2.3.js"></script>
-    <script src="<?php echo bloginfo('template_directory'); ?>/js/bootstrap.js"></script>
+    <link href="<?php bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/neup.css" rel="stylesheet">
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
     <script>
         $(function () {
             $("#tabs1 a").mousemove(function (e) {
@@ -54,16 +54,16 @@
               <!-- 轮播（Carousel）项目 -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/2_1.png" alt="First slide">
+                    <img src="<?php bloginfo('template_url'); ?>/images/2_1.png" alt="First slide">
                     <div class="carousel-caption">1</div>
                 </div>
                 <div class="item">
 
-                    <img src="<?php bloginfo('template_directory'); ?>/images/2_1.png"  alt="Second slide">
+                    <img src="<?php bloginfo('template_url'); ?>/images/2_1.png"  alt="Second slide">
                     <div class="carousel-caption">2</div>
                 </div>
                 <div class="item">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/2_1.png" alt="Third slide">
+                    <img src="<?php bloginfo('template_url'); ?>/images/2_1.png" alt="Third slide">
                     <div class="carousel-caption">3</div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
             </div>
             <div class="line212 frame">
                 <div class="line212a1"><h4>外媒聚焦</h4></div>
-                <div class="line212a2"><a href="#">more>></div>
+                <div class="line212a2"><a href="#">more>></a></div>
                 <div class="line212b"></div>
                 <div class="line212c">
                     <ul class="disc"> 
@@ -106,7 +106,7 @@
             </div>
             <div class="line213 frame">
                 <div class="line213a1"><h4>通知公告</h4></div>
-                <div class="line213a2"><a href="#">more>></div>
+                <div class="line213a2"><a href="#">more>></a></div>
                 <div class="line213b"></div>
                 <div class="line213c">
                     <ul class="disc">
@@ -146,7 +146,7 @@
             </div>
             <div class="line215 frame">
                 <div class="line215a1"><h4>学院团讯</h4></div>
-                <div class="line215a2"><a href="#">more>></div>
+                <div class="line215a2"><a href="#">more>></a></div>
                 <div class="line215b"></div>
                 <div class="line215c">
                     <ul class="disc">
@@ -168,7 +168,7 @@
             </div>
             <div class="line216 frame">
                 <div class="line216a1"><h4>活动预告</h4></div>
-                <div class="line216a2"><a href="#">more>></div>
+                <div class="line216a2"><a href="#">more>></a></div>
                 <div class="line216b"></div>
                 <div class="line216c">
                     <ul class="disc">
@@ -259,7 +259,7 @@
         </div>
         <div class="line32">
             <div class="line32a1"><h4>活力支部</h4></div>
-            <div class="line32a2"><a href="#">more>></div>
+            <div class="line32a2"><a href="#">more>></a></div>
             <div class="line32b"></div>
             <div class="line32c1">
                 <ul class="disc">
@@ -282,7 +282,7 @@
         </div>
         <div class="col-md-4 line33 frame">
             <div class="line33a1"><h4>先锋排行</h4></div>
-            <div class="line33a2"><a href="#">more>></div>
+            <div class="line33a2"><a href="#">more>></a></div>
             <div class="line33b"></div>
         </div>
         <!-- </div> -->

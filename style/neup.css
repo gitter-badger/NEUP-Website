@@ -155,7 +155,6 @@
 		float: left;
 		width: 33%;
 		height: 50%;
-		border: solid ipx red;
 	}
 	.line212a1{
 		position:absolute;
@@ -191,7 +190,6 @@
 		float: left;
 		width: 33%;
 		height: 50%;
-		border: solid ipx red;
 	}
 	.line213a1{
 		position:absolute;
@@ -227,7 +225,6 @@
 		float: left;
 		width: 33%;
 		height: 50%;
-		border: solid ipx red;
 	}
 	.line214a{
 		position:absolute;
@@ -241,7 +238,6 @@
 		float: left;
 		width: 33%;
 		height: 50%;
-		border: solid ipx red;
 	}
 	.line215a1{
 		position:absolute;
@@ -277,7 +273,6 @@
 		float: left;
 		width: 33%;
 		height: 50%;
-		border: solid ipx red;
 	}
 	.line216a1{
 		position:absolute;
@@ -573,8 +568,8 @@
 
 
 
-    /*Leeeeo Liu's*/
-	.carousel-indicators li{
+/*Leeeeo Liu's*/
+.carousel-indicators li{
     border-color: #eea236;
 }
 
@@ -600,8 +595,8 @@
 .tab-pane-content-1{
     float: left;
     width:15%;
-    /*margin-top: 10px;*/
-    /*margin-left: 5px;*/
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .tab-pane-content-1 dt{
     line-height: 170%;
@@ -609,7 +604,7 @@
 .tab-pane-content-2{
     float: left;
     width:35%;
-    /*margin-top: 10px;*/
+    margin-top: 15px;
     vertical-align: middle;
 }
 .tab-pane-content-2 img{
@@ -632,21 +627,41 @@
     /*margin-right: 5px;*/
 }
 #line3-head1{
-    width: 100%;
-    background-color: rgb(238,131,34);
+    width: 165px;
+    background-color: rgb(241,91,88);
+    border-radius: 0px;
 }
 
 #tabs1 li{
     font-size: 10px;
 }
 #line3-head2{
-    background-color: rgb(252,206,47);
-    margin: 0px;
+    width: 165px;
+    background-color: rgb(241,91,88);
+    border-radius: 0px;
 }
 #line3-head3{
-    background-color: rgb(254,239,53);
-    margin: 0px;
+    width: 165px;
+    background-color: rgb(241,91,88);
+    border-radius: 0px;
 }
 #line3-head4{
-    background-color: rgb(234,229,50);
+    width: 165px;
+    background-color: rgb(241,91,88);
+    border-radius: 0px;
+}
+#tabs1 a{
+    color: #FFFFFF;
+    text-align: center;
+}
+.line3-container{
+    position:absolute;
+    left:0;
+    top:20%;
+    width:100%;
+    height:1%;
+    background-color:rgb(243,130,70);
+}
+.tab-pane-content-1 a{
+    color: rgb(242, 104, 101);
 }

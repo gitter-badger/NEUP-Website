@@ -202,6 +202,7 @@
         <div class="col-md-4 line31 frame">
             <div class="container">
                 <div class="row">
+                <div class="line3-container"></div>
                     <ul class="nav-tabs nav" id="tabs1"><li class="line3-active"><a href="#tabs-1" id="line3-head1">思想引领行动 </a></li>
                         <li><a href="#tabs-2" id="line3-head2">素质拓展行动</a></li>
                         <li><a href="#tabs-3" id="line3-head3">权益服务行动</a></li>
@@ -209,7 +210,6 @@
                     </ul>
                     <div class="tab-content" style="background-image: url(<?php echo bloginfo('template_url'); ?>/images/8243B997-6573-4F31-8A65-49B22E085D8F.png)">
                         <div class="tab-pane active" id="tabs-1">
-                            <div style="background-color: rgb(238,131,34);height: 10px;margin-top: 0px"></div>
                             <div class="tab-pane-content-1">
                                 <dt><a href="#">主题团日</a></dt>
                                 <dt><a href="#">四进四信</a></dt>
@@ -242,15 +242,12 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="tabs-2">
-                            <div style="background-color: rgb(252,206,47);height: 10px;margin-top: 0px"></div>
                             skdfjlsdjlfjdsl
                         </div>
                         <div class="tab-pane" id="tabs-3">
-                            <div style="background-color: rgb(254,239,53);height: 10px;margin-top: 0px"></div>
                             lalalalalllalalalal
                         </div>
                         <div class="tab-pane" id="tabs-4">
-                            <div style="background-color: rgb(234,229,50);height: 10px;margin-top: 0px"></div>
                             lalalalalalallljkldsfjklsdjfkldsjfkldsjfklds
                         </div>
                     </div>

@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0" />
     <link href="<?php bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/neup.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/swiper-3.3.1.min.css" rel="stylesheet">
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/swiper-3.3.1.min.js"></script>
     <script>
         $(function () {
             $("#tabs1 a").mousemove(function (e) {
@@ -328,7 +330,26 @@
 
     <div class="line4">
         <div class="line41 frame">
-
+            <div class="line41a"></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-1.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-2.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-1.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-2.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-3.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-1.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-2.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-1.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-2.png"></div>
+                    <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-3.png"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
         <div class="line42 frame">
             <div class="line42a"></div>
@@ -353,5 +374,20 @@
     <!-- </div> -->
     <footer class="foot">
     </footer>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 4,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop:true,
+            centeredSlides: true,
+            autoplay: 1500,
+            autoplayDisableOnInteraction: false
+//            grabCursor: true
+        });
+    </script>
 </body>
 </html>

@@ -12,13 +12,11 @@
             $("#tabs1 a").mousemove(function (e) {
                 $(this).tab('show');
             });
-            $("#tabs2 a").mousemove(function (e) {
-                $(this).tab('show');
-            });
-            $("#tabs3 a").mousemove(function (e) {
-                $(this).tab('show');
-            });
-            $("#tabs4 a").mousemove(function (e) {
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#tabs331 a").mousemove(function (e) {
                 $(this).tab('show');
             });
         });
@@ -43,7 +41,6 @@
         </nav>
     </div>
     <div class="line2">
-
         <div id="myCarousel" class="line20 carousel slide" data-ride="carousel">
                     <!-- 轮播（Carousel）指标 -->
             <ol class="carousel-indicators">
@@ -73,7 +70,6 @@
               <a class="carousel-control right" href="#myCarousel"
                  data-slide="next">&rsaquo;</a>
         </div>
-
         <div class="line21">
             <div class="line211 frame">
                 <div class="line211a"><p>先锋新闻</p></div>
@@ -281,6 +277,51 @@
             <div class="line33a1"><h4>先锋排行</h4></div>
             <div class="line33a2"><a href="#">more>></a></div>
             <div class="line33b"></div>
+            <div class="line33content">
+                <div class="container">
+                    <div class="row">
+                        <div class="line33-container">
+                            <ul class="nav-tabs nav" id="tabs331"><li class="line33-active"><a href="#tabs-331" id="line33-head1">投稿排行 </a></li>
+                                <li><a href="#tabs-332" id="line33-head2">投稿之星</a></li>
+                                <li><a href="#tabs-333" id="line33-head3">支部投稿</a></li>
+                                <li><a href="#tabs-334" id="line33-head4">点击排行</a></li>
+                            </ul>
+                            <div class="tab-content" id="tab-content33">
+                                <div class="tab-pane active" id="tabs-331">
+                                    <div class="tab-pane-content331">
+                                        <ul>
+                                            <dl>
+                                                <dt><a href="#" target="_blank">1 关于举办2016年“创青春”全国大学生................</a></dt>
+                                                <dt><a href="#" target="_blank">2 东北大学“示范团支部”创建和“十佳...................</a></dt>
+                                                <dt><a href="#" target="_blank">3 关于开展东北大学2016年五四奖章、................</a></dt>
+                                                <dt><a href="#" target="_blank">4 关于举办2016年“创青春”全国大学生................</a></dt>
+                                                <dt><a href="#" target="_blank">5 东北大学“示范团支部”创建和“十佳...................</a></dt>
+                                            </dl>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tabs-332" style="color:black;">
+                                    <div class="tab-pane-content332">
+                                        <ul>投稿之星内容</ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tabs-333" style="color:red">
+
+                                    <div class="tab-pane-content333">
+                                        <ul>支部投稿内容</ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tabs-334" style="color:blue">
+                                    <div class="tab-pane-content334">
+                                        <ul>点击排行内容</ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- </div> -->
     </div> <!-- /container -->

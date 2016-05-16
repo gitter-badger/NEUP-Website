@@ -45,32 +45,32 @@
     <div class="line2">
         <div id="myCarousel" class="line20 carousel slide" data-ride="carousel">
                     <!-- 轮播（Carousel）指标 -->
-            <ol class="carousel-indicators">
+            <div class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            </div>
               <!-- 轮播（Carousel）项目 -->
             <div class="carousel-inner">
                 <div class="item active">
                     <img src="<?php bloginfo('template_url'); ?>/images/2_1.png" alt="First slide">
-                    <div class="carousel-caption">1</div>
+                    <div class="carousel-caption"><p>biaotingjkjsfdl</p></div>
                 </div>
                 <div class="item">
-
-                    <img src="<?php bloginfo('template_url'); ?>/images/2_1.png"  alt="Second slide">
-                    <div class="carousel-caption">2</div>
+                    <img src="<?php bloginfo('template_url'); ?>/images/2_1.png" alt="Second slide">
+                    <div class="carousel-caption"><p>biaotingjsdfdsfdsfsdfkjsfdl</p></div>
                 </div>
                 <div class="item">
                     <img src="<?php bloginfo('template_url'); ?>/images/2_1.png" alt="Third slide">
-                    <div class="carousel-caption">3</div>
+                    <div class="carousel-caption"><p>biaotijkjsfdl</p></div>
                 </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left" href="#myCarousel"
+                   data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel"
+                   data-slide="next">&rsaquo;</a>
             </div>
-              <!-- 轮播（Carousel）导航 -->
-              <a class="carousel-control left" href="#myCarousel"
-                 data-slide="prev">&lsaquo;</a>
-              <a class="carousel-control right" href="#myCarousel"
-                 data-slide="next">&rsaquo;</a>
+
         </div>
         <div class="line21">
             <div class="line211 frame">
@@ -379,7 +379,7 @@
             pagination: '.swiper-pagination',
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
-            slidesPerView: 4,
+            slidesPerView: 5,
             paginationClickable: true,
             spaceBetween: 30,
             loop:true,

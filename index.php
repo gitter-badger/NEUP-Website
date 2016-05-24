@@ -74,15 +74,17 @@
         </div>
         <div class="line21">
             <div class="line211 frame">
-                <div class="line211a"><p>先锋新闻</p></div>
+                <div class="line211a"><p>先锋头条</p></div>
+				<div class="line211a2"><a href="#" class="a">more>></a></div>
                 <div class="line211b"></div>
                 <div class="line211c">
-                    <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;留守儿童，估算约1亿的消息上了微博热搜榜，随后，各大媒体官号相继转发，这源于中国青年报中青在线的一篇题为“我国将首次摸清留守儿童底数”的报道。（点击看全文）</a>
+                    <a href="#" class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					留守儿童，估算约1亿的消息上了微博热搜榜，随后，各大媒体官号相继转发，这源于中国青年报中青在线的一篇题为“我国将首次摸清留守儿童底数”的报道。（点击看全文）</a>
                 </div>
             </div>
             <div class="line212 frame">
-                <div class="line212a1"><h4>外媒聚焦</h4></div>
-                <div class="line212a2"><a href="#">more>></a></div>
+                <div class="line212a1"><p>外媒聚焦</p></div>
+                <div class="line212a2"><a href="#" class="a">more>></a></div>
                 <div class="line212b"></div>
                 <div class="line212c">
                     <ul class="disc"> 
@@ -103,8 +105,8 @@
                 </div>
             </div>
             <div class="line213 frame">
-                <div class="line213a1"><h4>通知公告</h4></div>
-                <div class="line213a2"><a href="#">more>></a></div>
+                <div class="line213a1"><p>通知公告</p></div>
+                <div class="line213a2"><a href="#" class="a">more>></a></div>
                 <div class="line213b"></div>
                 <div class="line213c">
                     <ul class="disc">
@@ -143,8 +145,8 @@
                 </div>
             </div>
             <div class="line215 frame">
-                <div class="line215a1"><h4>学院团讯</h4></div>
-                <div class="line215a2"><a href="#">more>></a></div>
+                <div class="line215a1"><p>学院团讯</p></div>
+                <div class="line215a2"><a href="#" class="a">more>></a></div>
                 <div class="line215b"></div>
                 <div class="line215c">
                     <ul class="disc">
@@ -165,8 +167,8 @@
                 </div>
             </div>
             <div class="line216 frame">
-                <div class="line216a1"><h4>活动预告</h4></div>
-                <div class="line216a2"><a href="#">more>></a></div>
+                <div class="line216a1"><p>活动预告</p></div>
+                <div class="line216a2"><a href="#" class="a">more>></a></div>
                 <div class="line216b"></div>
                 <div class="line216c">
                     <ul class="disc">
@@ -253,8 +255,8 @@
             </div>
         </div>
         <div class="line32">
-            <div class="line32a1"><h4>活力支部</h4></div>
-            <div class="line32a2"><a href="#">more>></a></div>
+            <div class="line32a1"><p>活力支部</p></div>
+            <div class="line32a2"><a href="#" class="a">more>></a></div>
             <div class="line32b"></div>
             <div class="line32c1">
                 <ul class="disc">
@@ -352,13 +354,13 @@
             </div>
         </div>
         <div class="line42 frame">
-            <div class="line42a"></div>
-            <div class="line42b"><h4>专题一  学习之路</h4></div>
+           <!-- <div class="line42a"></div>-->
+            <!--<div class="line42b"><h4>专题一  学习之路</h4></div>-->
 
         </div>
         <div class="line43 frame">
-            <div class="line43a"></div>
-            <div class="line43b"><h4>专题二  青年之声</h4></div>
+            <!--<div class="line43a"></div>-->
+            <!--<div class="line43b"><h4>专题二  青年之声</h4></div>-->
 
         </div>
         <div class="line44 frame">

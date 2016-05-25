@@ -364,13 +364,19 @@
 
         </div>
         <div class="line44 frame">
-            <div class="line44a"><p>活动专题</p></div>
-            <!--<div class="line44b"></div>
-            <div class="line44c1"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/1.png" border="0"></a></div>
-            <div class="line44c2"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/2.png" border="0"></a></div>
-            <div class="line44c3"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/3.png" border="0"></a></div>-->
+            <div class="line44a" ></div>
+            <div class="line44at" style = "height:27px;line-height:27px;overflow:hidden;  left: 6%;color:white">活动专题</div>
+            <div class="line44b"></div>
+            <div class="line44c" ><ul style="list-style-type: none">
+                    <div class="line44c1"> <a href="#"><img src="<?php echo bloginfo('template_url'); ?>/images/Snip20160525_4.png" border="0" width="84.6%" height="19.3%"></a></div>
+                    <div class="line44c2"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/images/Snip20160525_5.png" border="0" width="84.6%" height="19.3%"></a></div>
+                    <div class="line44c3"><a href="#"><img src="<?php echo bloginfo('template_url'); ?>/images/Snip20160525_6.png" border="0"  width="84.6%" height="19.3%"></a></div>
+                </ul>
+            </div>
 
         </div>
+    </div>
+
     </div>
 
     <!-- </div> -->

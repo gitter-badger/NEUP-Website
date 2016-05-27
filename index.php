@@ -2,13 +2,19 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
     <link href="<?php bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/neup.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/swiper-3.3.1.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_url'); ?>/style/bootstrap-datepicker3.standalone.css.map" rel="stylesheet" />
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap-datepicker.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap-datepicker.zh-CN.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/swiper-3.3.1.min.js"></script>
+
+
     <script>
         $(function () {
             $("#tabs1 a").mousemove(function (e) {
@@ -190,8 +196,25 @@
             </div>
         </div>
         <div class="line22">
-            <div class="line221"></div>
-            <div class="line222"></div>
+            <div class="line221">
+                <div id="date" style="margin-left: 13px ;margin-top: 13px;">
+                    <script>
+                        $('#date').datepicker({
+                            maxViewMode: 0,
+
+                            language: "zh-CN",
+                            forceParse: false,
+                            todayHighlight: true,
+                            toggleActive: true
+                        });
+                    </script>
+
+                </div>
+            </div>
+
+            <div class="line222">
+
+            </div>
         </div>
     </div>
 
@@ -332,7 +355,7 @@
 
     <div class="line4">
         <div class="line41 frame">
-            <div class="line41a"></div>
+            <!--<div class="line41a"></div>-->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="<?php echo bloginfo('template_url'); ?>/images/line41-1.png"></div>

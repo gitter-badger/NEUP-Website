@@ -15,7 +15,7 @@
 }
 
 .wholehtml {
-    background-image: url(images/red_background.jpg);
+    background-image: url(/images/red_background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -30,7 +30,7 @@
     overflow: auto;
     min-height: 700px;
     min-width: 1700px;
-    background-image: url(images/white.jpg);
+    background-image: url(/images/white.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -376,9 +376,9 @@
     float: left;
     width: 100%;
     height: 50%;
-    background-image: url(../images/2_2_calendar.png);
+    /*background-image: url(../images/2_2_calendar.png);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 .line222 {
@@ -388,7 +388,7 @@
     height: 50%;
     background-image: url(../images/2_2_weibo.png);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;/**/
 }
 
 .col-md-4 {
@@ -603,7 +603,7 @@
     top: 0;
     width: 100%;
     height: 20%;
-    background-color: #f47122;
+    background-color: #f35853;
 }
 .line44at {
     position: absolute;

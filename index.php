@@ -94,19 +94,19 @@
                 <div class="line212b"></div>
                 <div class="line212c">
                     <ul class="disc"> 
-                        <?php 
-                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                        $args=array( 
-                        'category_name' => "qqq", // 分类名为qqq
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args=array(
+                        'category_name' => "外媒聚焦", // 分类名为qqq
                         'posts_per_page' => 4, // 只显示4篇
-                        'paged'=>$paged, 
-                                    ); 
-                        query_posts($args); 
+                        'paged'=>$paged,
+                                    );
+                        query_posts($args);
 
-                        if (have_posts()) : while (have_posts()) : the_post(); 
+                        if (have_posts()) : while (have_posts()) : the_post();
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li> 
-                        <?php endwhile; endif; wp_reset_query();?> 
+                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li>
+                        <?php endwhile; endif; wp_reset_query();?>
                     </ul>
                 </div>
             </div>
@@ -116,18 +116,18 @@
                 <div class="line213b"></div>
                 <div class="line213c">
                     <ul class="disc">
-                        <?php 
-                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                        $args=array( 
-                        'cat' => 3, // 分类名为qqq
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args=array(
+                        'category_name' => "通知公告", // 分类名为qqq
                         'posts_per_page' => 4, // 只显示4篇
-                        'paged'=>$paged, 
-                                    ); 
-                        query_posts($args); 
+                        'paged'=>$paged,
+                                    );
+                        query_posts($args);
 
-                        if (have_posts()) : while (have_posts()) : the_post(); 
+                        if (have_posts()) : while (have_posts()) : the_post();
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>" calss="a"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li>
                         <?php endwhile; endif; wp_reset_query();?>
                     </ul>
                 </div>
@@ -135,18 +135,18 @@
             <div class="line214 frame">
                 <div class="line214a">
                     <ul class="disc">
-                        <?php 
-                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                        $args=array( 
-                        'category_name' => "qqq", // 分类名为qqq
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args=array(
+                        'category_name' => "先锋头条", // 分类名为qqq
                         'posts_per_page' => 4, // 只显示4篇
-                        'paged'=>$paged, 
-                                    ); 
-                        query_posts($args); 
+                        'paged'=>$paged,
+                                    );
+                        query_posts($args);
 
-                        if (have_posts()) : while (have_posts()) : the_post(); 
+                        if (have_posts()) : while (have_posts()) : the_post();
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>" calss = a><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class = a><?php the_title(); ?></a></li>
                         <?php endwhile; endif; wp_reset_query();?>
                 </div>
             </div>
@@ -156,18 +156,18 @@
                 <div class="line215b"></div>
                 <div class="line215c">
                     <ul class="disc">
-                        <?php 
-                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                        $args=array( 
-                        'category_name' => "qqq", // 分类名为qqq
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args=array(
+                        'category_name' => "学院团讯", // 分类名为qqq
                         'posts_per_page' => 4, // 只显示4篇
-                        'paged'=>$paged, 
-                                    ); 
-                        query_posts($args); 
+                        'paged'=>$paged,
+                                    );
+                        query_posts($args);
 
-                        if (have_posts()) : while (have_posts()) : the_post(); 
+                        if (have_posts()) : while (have_posts()) : the_post();
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class = "a"><?php the_title(); ?></a></li>
                         <?php endwhile; endif; wp_reset_query();?>
                     </ul>
                 </div>
@@ -178,18 +178,18 @@
                 <div class="line216b"></div>
                 <div class="line216c">
                     <ul class="disc">
-                        <?php 
-                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                        $args=array( 
-                        'category_name' => "qqq", // 分类名为qqq
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args=array(
+                        'category_name' => "活动预告", // 分类名为qqq
                         'posts_per_page' => 4, // 只显示4篇
-                        'paged'=>$paged, 
-                                    ); 
-                        query_posts($args); 
+                        'paged'=>$paged,
+                                    );
+                        query_posts($args);
 
-                        if (have_posts()) : while (have_posts()) : the_post(); 
+                        if (have_posts()) : while (have_posts()) : the_post();
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class = "a"><?php the_title(); ?></a></li>
                         <?php endwhile; endif; wp_reset_query();?>
                     </ul>
                 </div>
@@ -246,18 +246,18 @@
                             <div class="tab-pane-content-3">
                                 <ul style="margin: 0;padding: 0;">
                                 <dl>
-                                <?php 
-                                    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                                    $args=array( 
-                                    'category_name' => "qqq", // 分类ID为1
+                                <?php
+                                    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                                    $args=array(
+                                    'category_name' => "主题团日", // 分类ID为1
                                     'posts_per_page' => 4, // 只显示4篇
-                                    'paged'=>$paged, 
+                                    'paged'=>$paged,
                                     ); 
-                                    query_posts($args); 
+                                    query_posts($args);
 
-                                    if (have_posts()) : while (have_posts()) : the_post(); 
+                                    if (have_posts()) : while (have_posts()) : the_post();
                                     ?> 
-                                    <dt><a href="<?php the_permalink(); ?>" target="_blank"><?php the_title(); ?></a><dt> 
+                                    <dt><a href="<?php the_permalink(); ?>" target="_blank" class = "a"><?php the_title(); ?></a><dt>
                                     <?php endwhile; endif; wp_reset_query();?>
                                     <div class="clear"></div>
                                 </dl>
@@ -283,18 +283,18 @@
             <div class="line32b"></div>
             <div class="line32c1">
                 <ul class="disc">
-                    <?php 
-                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; 
-                        $args=array( 
-                        'category_name' => "qqq", // 分类ID为1
+                    <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args=array(
+                        'category_name' => "活力支部", // 分类ID为1
                         'posts_per_page' => 4, // 只显示4篇
-                        'paged'=>$paged, 
-                                    ); 
-                        query_posts($args); 
+                        'paged'=>$paged,
+                                    );
+                        query_posts($args);
 
-                        if (have_posts()) : while (have_posts()) : the_post(); 
+                        if (have_posts()) : while (have_posts()) : the_post();
                         ?> 
-                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li> 
+                        <li><a href="<?php the_permalink(); ?>" class="a"><?php the_title(); ?></a></li>
                         <?php endwhile; endif; wp_reset_query();?>
                 </ul>
             </div>
@@ -302,7 +302,7 @@
         </div>
         <div class="col-md-4 line33 frame">
             <div class="line33a1"><h4>先锋排行</h4></div>
-            <div class="line33a2"><a href="#">more>></a></div>
+            <div class="line33a2"><a href="#" class="a">more>></a></div>
             <div class="line33b"></div>
             <div class="line33content">
                 <div class="container">

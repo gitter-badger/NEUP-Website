@@ -377,13 +377,13 @@
             </div>
         </div>
         <div class="line42 frame">
-           <!-- <div class="line42a"></div>-->
-            <!--<div class="line42b"><h4>专题一  学习之路</h4></div>-->
+           <div class="line42a"></div>
+           <div class="line42b"><a href="#" class="a5">专题一  学习之路</a></div>
 
         </div>
         <div class="line43 frame">
-            <!--<div class="line43a"></div>-->
-            <!--<div class="line43b"><h4>专题二  青年之声</h4></div>-->
+            <div class="line43a"></div>
+            <div class="line43b"><a href="#" class="a5">专题二  青年之声</a></div>
 
         </div>
         <div class="line44 frame">

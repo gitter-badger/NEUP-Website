@@ -1,0 +1,111 @@
+/*
+RATIO :
+
+banner (0, 0) (100% 16.4%)
+search (86.4% 12.3%) (99.3%, 14.5%)
+
+menubar (0, 18.5%) (100%, 22.8%)
+menuitem (1%, 18.5%) (12.5%, 22.7%)
+
+line1 (0.5%, 24.5%) (80%, 52%)
+line11 (0.5%, 24.5%) (33.7, 52)
+line12 (34.1, 24.5) (57.5, 52)
+line13 (57.7, 24.5) (80, 52)
+line14 (80.4, 24.5) (99.7, 41.3)
+
+line2 (0.5, 52.7) (80, 74.5)
+line21 (0.5, 52.7) (33.8, 74.5)
+	line21_pic (0.5, 57) (14.7, 73.5)
+	line21_news (15.5, 57) (33.2, 73.5)
+line22 (34.1, 52.7) (80, 74.5)
+line23 (80.3, 42) (99.5, 71.5)//calendar
+	line231 (81.5, 46.5) (99, 54.4)//calendar_item
+
+line31 (0.5, 75) (11.5, 90.5)
+line32 (12.2, 75) (33.8, 90.5)
+line33 (34.2, 75) (56.4, 90.5)
+line34 (56.6, 75) (80, 90.5)
+line35 (80.5, 72.5) (99.5, 90.5)
+
+footer (91.5)
+*/
+//http://www.sassmeister.com/
+
+@mixin body{
+    //padding-top: 65px;
+    //height: 1080px;
+    overflow-x: hidden;
+    border:solid 1px blue;
+    padding-top: 0;
+
+    //height: 1000px;
+    //-80px for browser's top bar
+
+    width: 90%;
+    margin-left: 5%;
+    overflow: auto;
+    //min-height: 700px;
+    //min-width: 1700px;
+    //background-image: url(../images/white.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+$media: screen;
+$feature: -webkit-min-device-pixel-ratio;
+$value: 1.5;
+
+
+@media #{$media} {
+
+    body{
+        @media (min-width: 1367px) and (max-width: 1899px){
+            //1920x1080
+            @include body;
+            height: 1000px;
+            background-color: red;
+
+        }
+
+        @media (min-width: 1900px){
+            
+            @include body;
+            height: 1000px;
+        }
+        @media (max-width: 1366px){
+            //laptop
+            @include body;
+            height: 700px;
+            //768-60
+        }
+         @media (max-width: 480px){
+            //laptop
+            @include body;
+            height: 2600px;            
+            //background-color: blue;
+            
+        }
+            @import "header.scss";
+            @import "line1.scss";
+            @import "line2.scss";
+            @import "line3.scss";
+            @import "footer.scss";
+            /*
+              REMEMBER update header.css first
+              because global include them
+            */
+    }
+
+}
+.frame {
+    overflow: hidden;
+}
+
+.wholehtml {
+    background-image: url(../images/red_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+

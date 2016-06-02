@@ -1,7 +1,13 @@
 #NEUP Website
+> use wordpress
+
 ---  
 ## TODO  
-* [ ] implement basic frame  
-* [ ] implement menubar
+* [ ] implement footer
 * [X] bootstrap.carousel with picture   
-* [ ] put it in .php
+* [X] put it in .php
+* [ ] implement basic frame  
+* [X] implement menubar
+* [ ] calender
+* [ ] responsive
+* [ ] Optimized font

@@ -1,0 +1,63 @@
+.line1 {
+  border: solid 1px red;
+  height: 27.5%;
+  width: 100%;
+  margin-top: 0.3%;
+  margin-bottom: 0.3%;
+  zoom: 1;
+  /*
+          &:after{
+              content: ".";
+              display: block;
+              height: 0;
+              clear: both;
+              visibility: hidden; 
+          }
+          */ }
+  .line1 .line11 {
+    width: 33.2%;
+    height: 100%;
+    border: solid 1px blue;
+    margin-left: 0.4%;
+    float: left;
+    display: block; }
+  .line1 .line12 {
+    width: 23.4%;
+    height: 100%;
+    border: solid 1px blue;
+    margin-left: 0.4%;
+    float: left;
+    display: block; }
+  .line1 .line13 {
+    width: 22.3%;
+    height: 100%;
+    border: solid 1px blue;
+    margin-left: 0.4%;
+    float: left;
+    display: block; }
+  .line1 .line14 {
+    height: 100%;
+    border: solid 1px blue;
+    margin-left: 0.4%;
+    float: left;
+    display: block;
+    width: 19.3%;
+    height: 63.63636%; }
+
+@media only screen and (max-width: 480px) {
+  .line1 {
+    border: solid 1px red;
+    /*min-height: 30%;*/
+    height: 29%;
+    width: 100%;
+    zoom: 1; }
+    .line1 .line11, .line1 .line12, .line1 .line13, .line1 .line14 {
+      border: solid 1px blue;
+      float: left;
+      display: block;
+      width: 98%;
+      height: 25%;
+      margin-top: 0.5%;
+      margin-left: 1%; } }
+
+/*# sourceMappingURL=line1.css.map */

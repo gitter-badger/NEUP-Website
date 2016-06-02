@@ -1,0 +1,341 @@
+/*
+RATIO :
+
+banner (0, 0) (100% 16.4%)
+search (86.4% 12.3%) (99.3%, 14.5%)
+
+menubar (0, 18.5%) (100%, 22.8%)
+menuitem (1%, 18.5%) (12.5%, 22.7%)
+
+line1 (0.5%, 24.5%) (80%, 52%)
+line11 (0.5%, 24.5%) (33.7, 52)
+line12 (34.1, 24.5) (57.5, 52)
+line13 (57.7, 24.5) (80, 52)
+line14 (80.4, 24.5) (99.7, 41.3)
+
+line2 (0.5, 52.7) (80, 74.5)
+line21 (0.5, 52.7) (33.8, 74.5)
+	line21_pic (0.5, 57) (14.7, 73.5)
+	line21_news (15.5, 57) (33.2, 73.5)
+line22 (34.1, 52.7) (80, 74.5)
+line23 (80.3, 42) (99.5, 71.5)//calendar
+	line231 (81.5, 46.5) (99, 54.4)//calendar_item
+
+line31 (0.5, 75) (11.5, 90.5)
+line32 (12.2, 75) (33.8, 90.5)
+line33 (34.2, 75) (56.4, 90.5)
+line34 (56.6, 75) (80, 90.5)
+line35 (80.5, 72.5) (99.5, 90.5)
+
+footer (91.5)
+*/
+@media screen {
+  body {
+    /*
+      REMEMBER update header.css first
+      because global include them
+    */ } }
+  @media screen and (min-width: 1367px) and (max-width: 1899px) {
+    body {
+      overflow-x: hidden;
+      border: solid 1px blue;
+      padding-top: 0;
+      width: 90%;
+      margin-left: 5%;
+      overflow: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 1000px;
+      background-color: red; } }
+  @media screen and (min-width: 1900px) {
+    body {
+      overflow-x: hidden;
+      border: solid 1px blue;
+      padding-top: 0;
+      width: 90%;
+      margin-left: 5%;
+      overflow: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 1000px; } }
+  @media screen and (max-width: 1366px) {
+    body {
+      overflow-x: hidden;
+      border: solid 1px blue;
+      padding-top: 0;
+      width: 90%;
+      margin-left: 5%;
+      overflow: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 700px; } }
+  @media screen and (max-width: 480px) {
+    body {
+      overflow-x: hidden;
+      border: solid 1px blue;
+      padding-top: 0;
+      width: 90%;
+      margin-left: 5%;
+      overflow: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 2600px; } }
+@media screen {
+    body .header {
+      position: relative;
+      width: 100%;
+      height: 20%;
+      /*border: solid 1px red;*/
+      margin-bottom: 0.5%; }
+      body .header .banner {
+        height: 71.92982%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        background: url(../images/banner.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat; }
+      body .header nav .menubar {
+        height: 18.85965%;
+        bottom: 0;
+        background-color: red; }
+    body .dropdown-menu {
+      width: 100%;
+      background-color: red; }
+    body .active {
+      background-color: white; }
+    body .menucolor {
+      color: white;
+      background-color: red; }
+    body .menucolor:hover {
+      color: red;
+      background-color: white; }
+    body .dropdown-menu > li > a {
+      color: white; } }
+  @media only screen and (max-width: 480px) {
+    body .header {
+      border: solid 1px red;
+      /*min-height: 30%;*/
+      height: 8%;
+      width: 100%; }
+    body .menubar {
+      border: solid 1px blue;
+      display: none; } }
+@media screen {
+    body .line1 {
+      border: solid 1px red;
+      height: 27.5%;
+      width: 100%;
+      margin-top: 0.3%;
+      margin-bottom: 0.3%;
+      zoom: 1;
+      /*
+              &:after{
+                  content: ".";
+                  display: block;
+                  height: 0;
+                  clear: both;
+                  visibility: hidden; 
+              }
+              */ }
+      body .line1 .line11 {
+        width: 33.2%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line1 .line12 {
+        width: 23.4%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line1 .line13 {
+        width: 22.3%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line1 .line14 {
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block;
+        width: 19.3%;
+        height: 63.63636%; } }
+  @media only screen and (max-width: 480px) {
+    body .line1 {
+      border: solid 1px red;
+      /*min-height: 30%;*/
+      height: 29%;
+      width: 100%;
+      zoom: 1; }
+      body .line1 .line11, body .line1 .line12, body .line1 .line13, body .line1 .line14 {
+        border: solid 1px blue;
+        float: left;
+        display: block;
+        width: 98%;
+        height: 25%;
+        margin-top: 0.5%;
+        margin-left: 1%; } }
+@media screen {
+    body .line2 {
+      border: solid 1px red;
+      height: 21.8%;
+      /*min-height: 30%;*/
+      width: 100%;
+      margin-top: 0.3%;
+      margin-bottom: 0.3%;
+      position: relative;
+      zoom: 1; }
+      body .line2 .line21 {
+        width: 33.2%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line2 .line22 {
+        width: 46%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line2 .line23 {
+        width: 19.2%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block;
+        margin-left: 80.4%;
+        height: 122%;
+        margin-bottom: 3%;
+        position: absolute;
+        bottom: 0px; } }
+  @media only screen and (max-width: 480px) {
+    body .line2 {
+      border: solid 1px red;
+      /*min-height: 30%;*/
+      height: 29%;
+      width: 100%;
+      margin-top: 0.2%;
+      margin-bottom: 0.2%;
+      position: static;
+      zoom: 1; }
+      body .line2 .line21, body .line2 .line22, body .line2 .line23 {
+        position: static;
+        border: solid 1px blue;
+        float: left;
+        display: block;
+        width: 98%;
+        height: 33%;
+        margin-top: 0.5%;
+        margin-left: 1%;
+        bottom: 0px; } }
+@media screen {
+    body .line3 {
+      border: solid 1px red;
+      height: 15.5%;
+      width: 100%;
+      margin-top: 0.3%;
+      margin-bottom: 0.3%;
+      zoom: 1;
+      position: relative;
+      /*
+              &:after{
+                  content: ".";
+                  display: block;
+                  height: 0;
+                  clear: both;
+                  visibility: hidden; 
+              }
+              */ }
+      body .line3 .line31 {
+        width: 11%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line3 .line32 {
+        width: 21.6%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line3 .line33 {
+        width: 23.4%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line3 .line34 {
+        width: 22.3%;
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block; }
+      body .line3 .line35 {
+        height: 100%;
+        border: solid 1px blue;
+        margin-left: 0.4%;
+        float: left;
+        display: block;
+        width: 19.2%;
+        margin-left: 80.4%;
+        height: 134%;
+        position: absolute;
+        bottom: 0px; } }
+  @media only screen and (max-width: 480px) {
+    body .line3 {
+      border: solid 1px red;
+      /*min-height: 30%;*/
+      height: 29%;
+      width: 100%;
+      zoom: 1; }
+      body .line3 .line31, body .line3 .line32, body .line3 .line33, body .line3 .line34, body .line3 .line35 {
+        border: solid 1px blue;
+        float: left;
+        display: block;
+        width: 98%;
+        height: 19%;
+        margin-top: 0.5%;
+        margin-left: 1%; } }
+@media screen {
+    body .footer {
+      border: solid 1px red;
+      height: 10%;
+      width: 100%;
+      margin-top: 0.3%;
+      margin-bottom: 0.3%;
+      zoom: 1; } }
+  @media only screen and (max-width: 480px) {
+    body .footer {
+      border: solid 1px red;
+      height: 5%;
+      width: 100%;
+      zoom: 1; } }
+
+.frame {
+  overflow: hidden; }
+
+.wholehtml {
+  background-image: url(../images/red_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto; }
+
+/*# sourceMappingURL=global.css.map */

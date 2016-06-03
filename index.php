@@ -9,6 +9,9 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <link href="<?php bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/global.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/line1.css" rel="stylesheet">
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 <title>无标题文档</title>
 </head>
 
@@ -35,7 +38,35 @@
 
       <div class="line1">
         <div class="line11">
-            11
+            <div id="myCarousel" class="line10 carousel slide" data-ride="carousel" style="height:100%;">
+                <!-- 轮播（Carousel）指标 -->
+                <div class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" type="circle" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" type="circle"></li>
+                    <li data-target="#myCarousel" data-slide-to="2" type="circle"></li>
+                </div>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner"  style="height: 100%;">
+                    <div class="item active" style="height: 100%;">
+                        <img src="<?php bloginfo('template_url'); ?>/images/20151020221927_21947.png" alt="First slide" style="height: 100%;width: 100%">
+                        <div class="carousel-caption" id="carousel-caption1"><p>管院学子在第八届网商创新应用大赛辽宁赛区决赛中喜获佳绩</p></div>
+                    </div>
+                    <div class="item" style="height: 100%">
+                        <img src="<?php bloginfo('template_url'); ?>/images/20150610211937_28458.png" alt="Second slide" style="height: 100%;width: 100%">
+                        <div class="carousel-caption" id="carousel-caption2"><p>中荷学院第八届团委学生会工作总结暨第九届团委学生会主席团换</p></div>
+                    </div>
+                    <div class="item" style="height: 100%">
+                        <img src="<?php bloginfo('template_url'); ?>/images/20150628210741_34025.jpg" alt="Third slide" style="height: 100%;width:100%">
+                        <div class="carousel-caption" id="carousel-caption3"><p>“唱响红色旋律 构建和谐社区”七一文艺汇演成功参演</p></div>
+                    </div>
+                    <!-- 轮播（Carousel）导航 -->
+                    <a class="carousel-control left" href="#myCarousel"
+                       data-slide="prev"><br><br><br><br>&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel"
+                       data-slide="next"><br><br><br><br>&rsaquo;</a>
+                </div>
+
+            </div>
         </div>
       	<div class="line12">
 			<div class="line12a"><p>先锋头条</p></div>

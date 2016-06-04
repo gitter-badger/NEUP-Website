@@ -11,6 +11,7 @@
     <link href="<?php bloginfo('template_url'); ?>/style/global.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/line1.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/line2.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/footer.css" rel="stylesheet">
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
     <script>

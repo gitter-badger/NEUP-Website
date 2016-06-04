@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $background-color: #de0023;
 $white: #fff;
 $red: #f00;
@@ -182,7 +182,7 @@ display: inline;
   }
   .footer-list{
     margin: 0;
-display: inline;
+  display: inline;
     text-align: center;
     ///padding-top: 12%;
     //padding-right: 10px;
@@ -316,7 +316,6 @@ display: inline;
         .img {
           display: inline-block;
           background: url('../images/tx_weibo_icn.png') no-repeat;
-
           background-size: 34px 34px;
           height: 34px;
           width: 34px;
@@ -327,31 +326,3 @@ display: inline;
   }
 }
 
-
-
-
-
-=======
-
-.footer{
-    border: solid 1px red;
-    height: 100%-90%;
-    width: 100%;
-    margin-top: 0.3%;
-    margin-bottom: 0.3%;
-    zoom:1;
-}
-
-@media only screen and (max-width: 480px){
-    .footer{
-        border: solid 1px red;
-        height:5%;
-        width: 100%;
-        //margin-top: 0.2%;
-        //margin-bottom: 0.2%;
-        zoom:1;
-    }
- 
-    
-}
->>>>>>> NEUP-Net-Depart/master

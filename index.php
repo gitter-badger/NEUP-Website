@@ -10,8 +10,16 @@
     <link href="<?php bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/global.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style/line1.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/line2.css" rel="stylesheet">
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+    <script>
+        $(function () {
+            $("#tabs1 a").mousemove(function (e) {
+                $(this).tab('show');
+            });
+        });
+    </script>
 <title>无标题文档</title>
 </head>
 
@@ -37,7 +45,7 @@
 
 
       <div class="line1">
-        <div class="line11">
+        <div class="line11" style="border: none">
             <div id="myCarousel" class="line10 carousel slide" data-ride="carousel" style="height:100%;">
                 <!-- 轮播（Carousel）指标 -->
                 <div class="carousel-indicators">
@@ -108,8 +116,49 @@
 
 
     <div class="line2">
-        <div class="line21">
-            21
+        <div class="line21" style="border: none;">
+            <div class="col-md-4 line21 frame"  style="width: 100%; padding: 0;border: none">
+                <div class="container" style="height: 100%;width:100%;padding: 0">
+                    <div class="row" style="height: 100%;width:100%;margin: 0;">
+                        <div class="line21-head" style="height: 14%;">
+                            <ul class="nav-tabs nav" id="tabs1" style="height: 100%;width: 100%;">
+                                <li class="line2-active"><a href="#tabs-1" id="line2-head1" onclick="return false">活力支部</a></li>
+                                <li><a href="#tabs-2" id="line2-head2" onclick="return false">魅力团干</a></li>
+                                <li><a href="#tabs-3" id="line2-head3" onclick="return false">缤纷社团</a></li>
+                            </ul>
+                        </div>
+                        <div class="line2-container" style="height: 1%;background-color: rgb(242,130,68)"></div>
+                        <div class="tab-content" id="line21-tab-content" style="height: 84%;border:solid 2px rgb(237,238,239);margin: 0;padding: 0">
+                            <div class="tab-pane active" id="tabs-1" style="height: 100%">
+                                <div class="tab-pane-content-1"
+                                     style="width: 57%;height: 100%;float: left">
+                                    <ul style="padding-left: 6%;font-size:smaller;line-height: 150%">
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <li><a href="#" target="_blank">关于举办2016年"创青春"全国大举办于</a><span>03-30</span></li>
+                                        <div class="clear"></div>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane-content-2" style="width: 43%;float: right;height: 100%">
+                                    <img
+                                        src="<?php echo bloginfo('template_url'); ?>/images/1657B9A7-C380-46B2-9F8C-DEC8EF51D8AA.png">
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-2">
+                                魅力团干内容...
+                            </div>
+                            <div class="tab-pane" id="tabs-3">
+                                缤纷社团内容...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="line22">
             22

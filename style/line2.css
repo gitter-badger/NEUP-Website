@@ -56,3 +56,55 @@
       bottom: 0px; } }
 
 /*# sourceMappingURL=line2.css.map */
+
+/*line21 by LeeeeoLiu*/
+#line2-head1,
+#line2-head2,
+#line2-head3{
+  padding: 0;
+}
+.line21-head li{
+  height:100%;
+  width: 33%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+  text-align: center;
+  /*border-right: solid rgb(214,27,33);*/
+  /*background-color: white;*/
+}
+#line2-head1,#line2-head2{
+  border-right: solid rgb(214,27,33);
+
+}
+#line2-head1{
+  left: 0;
+}
+#line2-head3{
+  float: right;
+  right: 0;
+}
+.line21-head a {
+  height: 100%;
+  width: 100%;
+  color: rgb(217,17,11);
+  margin: 0;
+}
+.tab-pane-content-2 img{
+  margin-top: 5%;
+  width: 100%;
+}
+#tabs1 a:hover {
+  background-color: rgb(240,90,87);
+  color: white;
+}
+.tab-pane-content-1 a{
+  text-decoration: none;
+}
+.tab-pane-content-1 span{
+  margin-left: 2%;
+}
+.tab-pane-content-1 li{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}

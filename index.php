@@ -37,13 +37,40 @@
             11
         </div>
       	<div class="line12">
-           12 
+			<div class="line12a"><p>先锋头条</p></div>
+			<div class="line12a2"><a href="#" class="line1a2">more>></a></div>
+            <div class="line12b"></div>
+			<div class="line12c"></div>
+			<div class="line12d"><a href="#" class="line1a">1</a></div>
+			<div class="line12d"><a href="#" class="line1a">2</a></div>
+			<div class="line12d"><a href="#" class="line1a">3</a></div>
+			<div class="line12d"><a href="#" class="line1a">4</a></div>
+			<div class="line12d"><a href="#" class="line1a">5</a></div>
+			<div class="line12d"><a href="#" class="line1a">6</a></div>
         </div>
       	<div class="line13">
-           13 
+			<div class="line13a"><p>学院团训</p></div>
+			<div class="line13a2"><a href="#" class="line1a2">more>></a></div>
+            <div class="line13b"></div>
+			<div class="line13c"><a href="#" class="line1a">1</a></div>
+			<div class="line13c"><a href="#" class="line1a">2</a></div>
+			<div class="line13c"><a href="#" class="line1a">3</a></div>
+			<div class="line13c"><a href="#" class="line1a">4</a></div>
+			<div class="line13c"><a href="#" class="line1a">5</a></div>
+			<div class="line13c"><a href="#" class="line1a">6</a></div>
+			<div class="line13c"><a href="#" class="line1a">7</a></div>
+			<div class="line13c"><a href="#" class="line1a">8</a></div>
+			<div class="line13c"><a href="#" class="line1a">9</a></div>
         </div>     
         <div class="line14">
-            14
+            <div class="line14a"><p>通知公告</p></div>
+			<div class="line14a2"><a href="#" class="line1a2">more>></a></div>
+            <div class="line14b"></div>
+			<div class="line14c"><a href="#" class="line1a">1</a></div>
+			<div class="line14c"><a href="#" class="line1a">2</a></div>
+			<div class="line14c"><a href="#" class="line1a">3</a></div>
+			<div class="line14c"><a href="#" class="line1a">4</a></div>
+			<div class="line14c"><a href="#" class="line1a">5</a></div>
         </div>        
       </div>
 

@@ -12,6 +12,7 @@
 <title>无标题文档</title>
 </head>
 
+
 <body>
     <div class="header">
         <div class = "banner">
@@ -85,11 +86,13 @@
         <div class="line23">
             23
         </div>
+
     </div> <!-- /container -->
 
         <div class="line3">
             <div class="line31">
                 31
+
             </div>
             <div class="line32">
                 32
@@ -97,6 +100,7 @@
             <div class="line33">
                 33
             </div>
+
             <div class="line34">
                 34
             </div>
@@ -107,8 +111,13 @@
 
 
     <!-- </div> -->
-    <footer class="footer">
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
+
+
+    <footer class = "footer">
+        <?php get_footer() ?>
+
+    </footer>
+
+
 </body>
 </html>

@@ -1,3 +1,240 @@
+<<<<<<< HEAD
+.footer {
+  border: solid 1px red;
+  height: 13%;
+  width: 100%;
+  background-color: #de0023;
+  zoom: 1; }
+
+.footer-list {
+  margin: 0;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.footer-link {
+  color: #FFFFFF;
+  display: inline;
+  font-size: 15px;
+  padding-bottom: 4px;
+  padding-top: 12px;
+  text-align: center;
+  width: 70%;
+  list-style: none;
+  margin: auto; }
+  .footer-link a:link {
+    color: #fff; }
+  .footer-link a:visited {
+    color: #fff; }
+  .footer-link a:hover {
+    color: #fff; }
+  .footer-link a:active {
+    color: #fff; }
+
+.footer-info {
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font-size: 5px;
+  color: white;
+  width: auto;
+  display: inline;
+  line-height: 60%; }
+  .footer-info a:link {
+    color: #fff; }
+  .footer-info a:visited {
+    color: #fff; }
+  .footer-info a:hover {
+    color: #fff; }
+  .footer-info a:active {
+    color: #fff; }
+
+.footer-sns {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0; }
+  .footer-sns a:link {
+    text-decoration: none;
+    color: #fff; }
+  .footer-sns a:visited {
+    text-decoration: none;
+    color: #fff; }
+  .footer-sns a:hover {
+    text-decoration: none;
+    color: #fff; }
+  .footer-sns a:active {
+    text-decoration: none;
+    color: #fff; }
+  .footer-sns a .text {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff; }
+  .footer-sns .weixin .content {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0; }
+    .footer-sns .weixin .content .img {
+      display: inline-block;
+      background-image: url("../images/weixin_icn.png");
+      background-repeat: no-repeat;
+      background-size: 25px 25px;
+      height: 25px;
+      width: 25px; }
+    .footer-sns .weixin .content .wechat-qrcode {
+      display: inline-block;
+      background: url("../images/wechat-qrcode.png") no-repeat;
+      background-size: 25px 25px;
+      height: 25px;
+      width: 25px; }
+  .footer-sns .weibo .content {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0; }
+    .footer-sns .weibo .content .img {
+      display: inline-block;
+      background: url("../images/weibo_icn.png") no-repeat;
+      background-size: 34px 34px;
+      height: 34px;
+      width: 34px; }
+  .footer-sns .tx-weibo .content {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0; }
+    .footer-sns .tx-weibo .content .img {
+      display: inline-block;
+      background: url("../images/tx_weibo_icn.png") no-repeat;
+      background-size: 34px 34px;
+      height: 34px;
+      width: 34px; }
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    border: solid 1px red;
+    height: 23%;
+    width: 100%;
+    background-color: #de0023;
+    margin-bottom: 6%; }
+
+  .footer-list {
+    margin: 0;
+    display: inline;
+    text-align: center; }
+
+  .footer-link {
+    color: #FFFFFF;
+    display: table;
+    font-size: 12%;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    width: 85%;
+    list-style: none;
+    margin: auto; }
+    .footer-link a:link {
+      color: #fff; }
+    .footer-link a:visited {
+      color: #fff; }
+    .footer-link a:hover {
+      color: #fff; }
+    .footer-link a:active {
+      color: #fff; }
+
+  .footer-info {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-size: 5px;
+    color: white;
+    width: 85%;
+    display: inline;
+    line-height: 110%; }
+    .footer-info a:link {
+      color: #fff; }
+    .footer-info a:visited {
+      color: #fff; }
+    .footer-info a:hover {
+      color: #fff; }
+    .footer-info a:active {
+      color: #fff; }
+    .footer-info .text {
+      margin-left: 4%;
+      margin-right: 4%; }
+
+  .footer-sns {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0; }
+    .footer-sns a:link {
+      text-decoration: none;
+      color: #fff; }
+    .footer-sns a:visited {
+      text-decoration: none;
+      color: #fff; }
+    .footer-sns a:hover {
+      text-decoration: none;
+      color: #fff; }
+    .footer-sns a:active {
+      text-decoration: none;
+      color: #fff; }
+    .footer-sns a .text {
+      list-style: none;
+      display: block;
+      margin-top: 0;
+      text-align: center;
+      font-size: 12px;
+      color: #fff; }
+    .footer-sns .weixin .content {
+      list-style: none;
+      display: block;
+      margin-top: 5%;
+      padding: 0; }
+      .footer-sns .weixin .content .img {
+        display: inline-block;
+        background-image: url("../images/weixin_icn.png");
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        height: 25px;
+        width: 25px; }
+      .footer-sns .weixin .content .wechat-qrcode {
+        display: inline-block;
+        background: url("../images/wechat-qrcode.png") no-repeat;
+        background-size: 25px 25px;
+        height: 25px;
+        width: 25px; }
+    .footer-sns .weibo .content {
+      list-style: none;
+      display: block;
+      margin-top: 5%;
+      padding: 0; }
+      .footer-sns .weibo .content .img {
+        display: inline-block;
+        background: url("../images/weibo_icn.png") no-repeat;
+        background-size: 34px 34px;
+        height: 34px;
+        width: 34px; }
+    .footer-sns .tx-weibo .content {
+      list-style: none;
+      display: block;
+      margin-top: 5%;
+      padding: 0; }
+      .footer-sns .tx-weibo .content .img {
+        display: inline-block;
+        background: url("../images/tx_weibo_icn.png") no-repeat;
+        background-size: 34px 34px;
+        height: 34px;
+        width: 34px; } }
+
+/*# sourceMappingURL=footer.css.map */
+=======
 .footer {
   border: solid 1px red;
   height: 10%;
@@ -14,3 +251,4 @@
     zoom: 1; } }
 
 /*# sourceMappingURL=footer.css.map */
+>>>>>>> NEUP-Net-Depart/master

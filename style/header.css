@@ -1,3 +1,67 @@
+.animenu__toggle {
+  display: none;
+  cursor: pointer;
+  background-color: #111;
+  border: 0;
+  padding: 10px;
+  height: 40px;
+  width: 40px; }
+  .animenu__toggle:hover {
+    background-color: #0186ba; }
+
+.animenu__toggle__bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff; }
+  .animenu__toggle__bar + .animenu__toggle__bar {
+    margin-top: 4px; }
+
+.animenu__toggle--active .animenu__toggle__bar {
+  margin: 0;
+  position: absolute; }
+  .animenu__toggle--active .animenu__toggle__bar:nth-child(1) {
+    transform: rotate(45deg); }
+  .animenu__toggle--active .animenu__toggle__bar:nth-child(2) {
+    opacity: 0; }
+  .animenu__toggle--active .animenu__toggle__bar:nth-child(3) {
+    transform: rotate(-45deg); }
+
+.animenu {
+  display: block; }
+  .animenu li, .animenu a {
+    font-size: 15px; }
+  .animenu a {
+    color: white; }
+
+.animenu__nav__child {
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: red; }
+  .animenu__nav__child > li {
+    width: 100%; }
+    .animenu__nav__child > li:first-child > a:after {
+      content: '';
+      position: absolute;
+      height: 0;
+      left: 1em;
+      top: -6px;
+      border: 6px solid transparent;
+      border-top: 0;
+      border-bottom-color: inherit; }
+    .animenu__nav__child > li:last-child {
+      border: 0; }
+  .animenu__nav__child a {
+    width: 100%;
+    border-color: #ff828c; }
+    .animenu__nav__child a:hover {
+      background-color: #ff828c;
+      border-color: #ff828c;
+      color: #fff; }
+
 .header {
   position: relative;
   width: 100%;
@@ -16,34 +80,105 @@
     height: 18.85965%;
     bottom: 0;
     background-color: red; }
+  .header .top-of-item {
+    bottom: 98.85965%;
+    min-width: 40px;
+    width: 100%;
+    height: 5%;
+    background-color: red;
+    color: red;
+    position: absolute; }
 
 .dropdown-menu {
   width: 100%;
-  background-color: red; }
-
-.active {
-  background-color: white; }
+  background-color: red;
+  margin-top: 1%;
+  border-radius: 0px; }
+  .dropdown-menu li a {
+    color: white; }
+  .dropdown-menu .submenucolor {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-bottom: 4%;
+    animation: flip 2s; }
 
 .menucolor {
   color: white;
   background-color: red; }
 
 .menucolor:hover {
-  color: red;
   background-color: white; }
 
-.dropdown-menu > li > a {
+.submenucolor:hover {
   color: white; }
+
+.dropdown-menu {
+  display: none; }
+
+.nav li:hover .menucolor {
+  background-color: #ff828c;
+  color: white; }
+.nav li:hover .dropdown-menu, .nav li:hover .animenu__nav__child {
+  display: block; }
+.nav li:hover ul {
+  display: block; }
 
 @media only screen and (max-width: 480px) {
   .header {
     border: solid 1px red;
     /*min-height: 30%;*/
-    height: 8%;
+    height: 4%;
     width: 100%; }
 
-  .menubar {
-    border: solid 1px blue;
-    display: none; } }
+  .animenu__toggle {
+    display: inline-block; }
+
+  .animenu__nav, .animenu__nav__child {
+    z-index: 2000;
+    display: block; }
+
+  .animenu__nav {
+    margin: 10px 0; }
+    .animenu__nav > li {
+      width: 100%;
+      border-right: 0;
+      border-bottom: 1px solid #515151; }
+      .animenu__nav > li:last-child {
+        border: 0; }
+      .animenu__nav > li:first-child > a:after {
+        content: '';
+        position: absolute;
+        height: 0;
+        width: 0;
+        left: 1em;
+        top: -6px;
+        border-top: 0;
+        border-bottom-color: inherit; }
+      .animenu__nav > li > a {
+        width: 100%;
+        border-color: #111;
+        position: relative; }
+    .animenu__nav a:hover {
+      background-color: #0186ba;
+      border-color: #0186ba;
+      color: #fff; }
+
+  .animenu__nav__child {
+    position: static;
+    background-color: #373737;
+    margin: 0;
+    transition: none;
+    visibility: visible;
+    opacity: 1; }
+    .animenu__nav__child > li:first-child > a:after {
+      content: none; }
+    .animenu__nav__child a {
+      padding-left: 20px;
+      width: 100%; } }
+.animenu__nav--open {
+  display: block !important; }
+  .animenu__nav--open .animenu__nav__child {
+    display: block; }
 
 /*# sourceMappingURL=header.css.map */

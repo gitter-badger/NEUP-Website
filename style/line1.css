@@ -11,9 +11,11 @@
               display: block;
               height: 0;
               clear: both;
-              visibility: hidden; 
+              visibility: hidden;
           }
           */ }
+  .line1 .active {
+    background-color: white; }
   .line1 .line11 {
     width: 33.2%;
     height: 100%;
@@ -44,6 +46,58 @@
     width: 19.3%;
     height: 63.63636%; }
 
+.carousel-caption {
+  position: absolute;
+  bottom: 0.5%;
+  padding-bottom: 3%; }
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 0%; }
+  .carousel-indicators .active {
+    height: 7px;
+    width: 7px;
+    background-color: transparent; }
+  .carousel-indicators li {
+    height: 4px;
+    width: 4px; }
+
+.myCarousel-head {
+  background: #eea236;
+  height: 2%; }
+
+.carousel-inner {
+  height: 100%;
+  border-radius: 5px; }
+
+.item {
+  height: 100%;
+  border-radius: 5px; }
+
+.item img {
+  width: 100%;
+  max-height: 274px; }
+
+.item img,
+.line10.carousel.slide, .carousel-control.left, .carousel-control.right {
+  border-radius: 5px; }
+
+.carousel-inner p {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  opacity: 1;
+  color: white; }
+
+#carousel-caption1, #carousel-caption2, #carousel-caption3 {
+  padding: 0;
+  bottom: 6%;
+  margin-bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: red;
+  opacity: 0.6; }
+
 @media only screen and (max-width: 480px) {
   .line1 {
     border: solid 1px red;
@@ -61,73 +115,3 @@
       margin-left: 1%; } }
 
 /*# sourceMappingURL=line1.css.map */
-
-/*line 21 by LeeeeoLiu*/
-.carousel-caption {
-  position: absolute;
-  bottom: 0.5%;
-  padding-bottom: 3%;
-}
-
-.carousel-indicators {
-  position: absolute;
-  bottom: 0%;
-  margin-bottom: 0%;
-}
-
-.carousel-indicators .active{
-  height: 7px;
-  width: 7px;
-  background-color: transparent;
-}
-.carousel-indicators li{
-  height: 4px;
-  width: 4px;
-}
-
-.myCarousel-head {
-  background: #eea236;
-  height: 2%;
-}
-
-.carousel-inner {
-  height: 100%;
-  border-radius: 5px;
-}
-.item{
-  height: 100%;
-  border-radius: 5px;
-}
-.item img{
-  width: 100%;
-  max-height: 274px;
-}
-.item img,
-.line10.carousel.slide,
-.carousel-control.left,
-.carousel-control.right{
-  border-radius: 5px;
-}
-.carousel-control.left{
-}
-.carousel-control.right{
-
-}
-
-.carousel-inner p{
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  opacity: 1;
-  color: white;
-}
-#carousel-caption1,
-#carousel-caption2,
-#carousel-caption3 {
-  padding: 0;
-  bottom: 6%;
-  margin-bottom: 0;
-  width: 100%;
-  left: 0;
-  background-color: red;
-  opacity: 0.6;
-}

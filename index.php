@@ -3,22 +3,59 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes" />    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=yes"/>
     <meta name="msapplication-tap-highlight" content="no" />
     <link href="<?php bloginfo('template_url'); ?>/style/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/style/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_url'); ?>/style/bootstrap-datepicker3.standalone.css.map" rel="stylesheet" />
+
     <link href="<?php bloginfo('template_url'); ?>/style/global.css" rel="stylesheet">
-    <link href="<?php bloginfo('template_url'); ?>/style/line1.css" rel="stylesheet">
-    <link href="<?php bloginfo('template_url'); ?>/style/line2.css" rel="stylesheet">
-    <link href="<?php bloginfo('template_url'); ?>/style/footer.css" rel="stylesheet">
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.2.3.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/respond.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/animenu.js"></script>
+
     <script>
+    // window.onload=funtion(){
+    //     var  div = document.getElementById('menu_btn');
+    //   　div.onclick=funtion(){
+    //         document.getElementById("navbar").style.display = 'block';
+    //         document.getElementById("navbar_item").style.display = 'block';
+    //         alert("ok");
+    //     }
+    //     function () {
+    //         $("#tabs1 a").mousemove(function (e) {
+    //             $(this).tab('show');
+    //         });
+    //     }
+    // };
         $(function () {
+          var click_num = 0;
             $("#tabs1 a").mousemove(function (e) {
                 $(this).tab('show');
             });
+            $("#menu_btn").click(function(e){
+              // if (click_num % 2 == 0) {
+              //   document.getElementById("navbar").style.display = 'block';
+              //   document.getElementById("navbar_item").style.display = 'block';
+              // }else{
+              //   document.getElementById("navbar").style.display = 'none';
+              //   document.getElementById("navbar_item").style.display = 'none';
+              // };
+              var navbar = $("#navbar");
+              var navbar_item = $("#navbar_item");
+                if(navbar.css("display")!="none" && navbar_item.css("display")!="none")
+                {
+                  navbar.css("display","none");
+                   navbar_item.css("display","none");
+                }
+                else{
+                  navbar.css("display","block");
+                   navbar_item.css("display","block");
+                }
+            });
+     
         });
     </script>
 <title>无标题文档</title>
@@ -30,22 +67,94 @@
         <div class = "banner">
 
         </div>
-        <nav class="menubar">
-          <ul class="nav nav-justified">
-            <li class="active"><a href="#" class="menucolor">先锋首页</a></li>
-            <li><a href="#" class="menucolor">东大共青团</a></li>
-            <li><a href="#" class="menucolor">学生组织</a></li>
-            <li><a href="#" class="menucolor">网上团支部</a></li>
-            <li><a href="#" class="menucolor">青年之声</a></li>
-            <li><a href="#" class="menucolor">先锋论坛</a></li>
-            <li><a href="#" class="menucolor">文件下载</a></li>
-            <li><a href="#" class="menucolor">友情链接</a></li>
-          </ul>
+        <nav class="menubar animenu">
+            <button class="animenu__toggle" id="menu_btn" onclick="
+            
+            alert("ok")"
+        >
+              <span class="animenu__toggle__bar"></span>
+              <span class="animenu__toggle__bar"></span>
+              <span class="animenu__toggle__bar"></span>
+            </button>
+            <ul class="nav nav-justified animenu__nav" id = "navbar">
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="menucolor">先锋首页</a>
+                  </li>
+
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="dropdown-toggle menucolor"  data-toggle="dropdown" data-hover="dropdown" data-delay="800" data-close-others="false">东大共青团 </a>
+                      <ul class="dropdown-menu animenu__nav__child" id = "navbar_item">
+                        <li><a href="#" class="submenucolor">团委简介</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">机构设置</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">工作职责</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">光辉历程</a></li>
+                        <!-- <li class="dropdown-header">Dropdown header</li> -->
+
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="dropdown-toggle menucolor"  data-toggle="dropdown" data-hover="dropdown" data-delay="800" data-close-others="false">学生组织 </a>
+                      <ul class="dropdown-menu animenu__nav__child" id = "navbar_item">
+                        <li><a href="#" class="submenucolor">学生会</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">研究生会</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">社团联合会</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">志愿者协会</a></li>
+                        <!-- <li class="dropdown-header">Dropdown header</li> -->
+
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="dropdown-toggle menucolor"  data-toggle="dropdown" data-hover="dropdown" data-delay="800" data-close-others="false">网上团支部 </a>
+                      <ul class="dropdown-menu animenu__nav__child" id = "navbar_item">
+                        <li><a href="#" class="submenucolor">网上团支部</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">支部博客联盟</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="#" class="submenucolor">团日视频展播</a></li>
+
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="menucolor">青年之声</a>
+                  </li>
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="menucolor">先锋论坛</a>
+                  </li>
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                    <a href="#" class="menucolor">文件下载</a>
+                    </li>
+                  <li class="dropdown">
+                      <ul class="dropdown-menu top-of-item">
+                      </ul>
+                      <a href="#" class="menucolor">友情链接<b class="caret"></b></a>
+                  </li>
+              </ul>
         </nav>
-      </div>
+    </div>
 
 
-      <div class="line1">
+    <div class="line1">
         <div class="line11" style="border: none">
             <div id="myCarousel" class="line10 carousel slide" data-ride="carousel" style="height:100%;">
                 <!-- 轮播（Carousel）指标 -->
@@ -102,7 +211,7 @@
 			<div class="line13c"><a href="#" class="line1a">7</a></div>
 			<div class="line13c"><a href="#" class="line1a">8</a></div>
 			<div class="line13c"><a href="#" class="line1a">9</a></div>
-        </div>     
+        </div>
         <div class="line14">
             <div class="line14a"><p>通知公告</p></div>
 			<div class="line14a2"><a href="#" class="line1a2">more>></a></div>
@@ -112,8 +221,8 @@
 			<div class="line14c"><a href="#" class="line1a">3</a></div>
 			<div class="line14c"><a href="#" class="line1a">4</a></div>
 			<div class="line14c"><a href="#" class="line1a">5</a></div>
-        </div>        
-      </div>
+        </div>
+    </div>
 
 
     <div class="line2">
@@ -170,7 +279,7 @@
 
     </div> <!-- /container -->
 
-        <div class="line3">
+    <div class="line3">
             <div class="line31">
                 31
 
@@ -188,11 +297,7 @@
             <div class="line35">
                 35
             </div>
-        </div>
-
-
-    <!-- </div> -->
-
+    </div>
 
     <footer class = "footer">
         <?php get_footer() ?>

@@ -56,22 +56,27 @@ $media: screen;
 $feature: -webkit-min-device-pixel-ratio;
 $value: 1.5;
 
+*, *:after, *:before {
+  box-sizing: border-box;
+}
 
 @media #{$media} {
 
     body{
         @media (min-width: 1367px) and (max-width: 1899px){
-            //1920x1080
+            //1600 is in it!!!
             @include body;
-            height: 1000px;
-            background-color: red;
+            height: 850px;
+            // background-color: red;
 
         }
 
         @media (min-width: 1900px){
-            
+
             @include body;
-            height: 1000px;
+            height: 980px;
+            //1920 is in here
+            //  background-color: blue;
         }
         @media (max-width: 1366px){
             //laptop
@@ -82,9 +87,9 @@ $value: 1.5;
          @media (max-width: 480px){
             //laptop
             @include body;
-            height: 2600px;            
+            height: 2600px;
             //background-color: blue;
-            
+
         }
             @import "header.scss";
             @import "line1.scss";
@@ -108,4 +113,3 @@ $value: 1.5;
     background-repeat: no-repeat;
     background-size: auto;
 }
-

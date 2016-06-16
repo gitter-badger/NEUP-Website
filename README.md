@@ -1,4 +1,6 @@
 #NEUP Website
+
+[![Join the chat at https://gitter.im/Pantynopants/NEUP-Website](https://badges.gitter.im/Pantynopants/NEUP-Website.svg)](https://gitter.im/Pantynopants/NEUP-Website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > use wordpress
 
 ---  
